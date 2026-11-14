@@ -1,0 +1,11 @@
+node_modules
+src
+tests
+coverage
+relatorio
+.github
+.git
+*.md
+*.pdf
+*.log
+.env
