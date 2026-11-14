@@ -77,3 +77,10 @@ Arquivo: `.github/workflows/ci.yml`. Dispara em Pull Request para `main` ou `dev
 7. Criação da imagem Docker (publicada no ghcr.io)
 
 Os jobs são encadeados com `needs`: se um falha, os seguintes não rodam.
+
+## Como contribuir
+
+1. Crie uma branch a partir da `main` (ex.: `feature/minha-alteracao`).
+2. Antes do commit, rode localmente `npm run format:check`, `npm run lint` e `npm run test:unit`.
+3. Abra um Pull Request para `main` ou `develop`.
+4. O workflow de CI roda sozinho no PR. O merge só deve ser feito com os 7 jobs aprovados.
